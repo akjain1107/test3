@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.assessment.mercedesreceiver.model;
+option java_package = "com.assessment.mercedesreceiver.model";
+option java_outer_classname = "UserProtos";
+message Player {
+  string id = 1;
+  string name = 2;
+  string dob = 3;
+  string salary = 4;
+  int32 agr = 5;
+}
